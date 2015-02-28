@@ -42,7 +42,7 @@ def getUrl(name):
 				pass
 			except UnboundLocalError,e:
 				pass
-            except Exception,e:
+			except Exception,e:
 				pass
 	print name + ' over'
 
